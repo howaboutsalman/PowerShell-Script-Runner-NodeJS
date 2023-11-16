@@ -1,3 +1,29 @@
+# Welcome to the PowerShell Runner!
+
+
+## Table of Contents
+- [Installation](#installation)
+- [Development](#development)
+- [Production](#production)
+- [Testing Node.js Server with Postman](#testing-nodejs-server-with-postman)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Installation
+
+```bash
+npm install
+```
+## Development
+
+```bash
+npm run dev
+```
+## Production
+```bash
+npm start
+```
+
 # Testing Node.js Server with Postman
 
 1. **Open Postman.**

@@ -21,7 +21,7 @@ app.post("/run", (req, res) => {
 
   console.log(`Executing PowerShell ${command ? 'command' : 'script'}: ${script}`);
 
-  //ps.addCommand();
+  //ps.addCommand(script);
 
   ps.invoke(script)
     .then((response) => {
